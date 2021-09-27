@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.container{
+    height: 100vh;
+}
+
 h1 {
     font-size: 6rem;
     margin-bottom: 0rem;
