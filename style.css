@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    background-color: darkolivegreen;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    color: cadetblue;
+    font-family: "Montserrat";
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    background-color: brown;
+    border-radius: 13%;
+}
+.dice {
+    margin-top: 0rem;
+    margin-left:  2rem;
+    margin-right: 2rem;
+}
+
+.inline {
+    display: inline-block;
+}
+p {
+    color: burlywood;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.btn {
+    display: block;
+    margin: auto;
+    height: 4rem;
+    width: 10rem;
+    background-color: darkgoldenrod;
+    font: bolder 2.5rem Montserrat ;
+}
+.btn:hover {
+    background-color: steelblue;
+}
+
+.result_ {
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+}
