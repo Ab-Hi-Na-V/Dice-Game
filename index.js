@@ -3,11 +3,11 @@ var draw_ =0, ply1 = 0, ply2 = 0;
 
 var player1 = prompt("Enter 1st player name:");
 if (player1 == null || player1 == "") {
-     prompt("Enter 1st player name:");
+     var player1 = prompt("Enter 1st player name:");
 }
 var player2 = prompt("Enter 2nd player name:");
 if (player2 == null || player2 == "") {
-     prompt("Enter 2nd player name:");
+     var player2 = prompt("Enter 2nd player name:");
 }
 
 document.querySelector(".player_1").innerHTML = player1;
